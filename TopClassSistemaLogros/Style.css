@@ -1,0 +1,254 @@
+/* Estilos para la pantalla principal */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#bienvenido {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+#form-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.boton {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #2a4a77;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+.boton:hover {
+    background-color: #2a4a77;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-registro{
+
+    width: 600px;
+    background-color: #5c7ba1;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+.form-registro h2 {
+    
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 20px;
+
+}
+
+label {
+
+    font-size: 27px;
+    font-family: 'calibri';
+
+}
+
+.controls {
+
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 18px;
+    
+}
+
+.form-registro .boton {
+
+    width: 100%;
+    background-color: #2a4a77;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    margin: 16px 0px;
+    font-size: 27px;
+
+}
+
+/* Estilos para login */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-registro{
+
+    width: 600px;
+    background-color: #5c7ba1;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+.form-registro h2 {
+    
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 20px;
+
+}
+
+label {
+
+    font-size: 27px;
+    font-family: 'calibri';
+
+}
+
+.controls {
+
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 18px;
+    
+}
+
+.form-registro .boton {
+
+    width: 100%;
+    background-color: #2a4a77;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    margin: 16px 0px;
+    font-size: 27px;
+
+}
+/* Estilos para index */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#bienvenido {
+    font-size: 24px;
+    margin-bottom: 10px; /* Reducido el margen */
+    color: #333;
+}
+#form-container {
+    background-color: #5c7ba1; /* Fondo celeste */
+    border-radius: 15px;
+    padding: 100px; /* Ajustado el padding */
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.boton {
+    padding: 15px 20px;
+    margin: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #2a4a77;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+.boton:hover {
+    background-color: #2a4a77;
+}
+/* Estilos para las imágenes */
+.imagen-docente, .imagen-estudiante, .imagen-evaluador {
+    width: 100px;
+    height: 105px;
+    border-radius: 100%;
+    margin-bottom: 20px; /* Espacio entre las imágenes y los botones */
+}
+
+/* Estilos para Regisro*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos del formulario de registro */
+.form-register {
+    width: 600px;
+    background-color: #5c7ba1;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 23px;
+    font-family: 'calibri';
+}
+
+.controls {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+.form-register .boton {
+    width: 100%;
+    background-color: #2a4a77;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+    margin: 16px 0px;
+    font-size: 20px;
+}
+
+
+
+
+
+

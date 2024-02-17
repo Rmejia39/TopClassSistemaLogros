@@ -1,0 +1,152 @@
+#ImagenP h1 {
+    display: inline;
+    background-color: #000;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin: 620px;
+    margin-top: auto;
+    font-family: Calibri, sans-serif;
+}
+
+#cuadroImagen {
+    border: 2px dashed #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    cursor: pointer;
+    position: relative;
+    background-color: white;
+}
+
+#cuadroImagen input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+#cuadroImagen label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#cuadroImagen i {
+    font-size: 5em;
+}
+
+#imagenPrevia {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#descripcionProducto {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+#descripcionProducto h2 {
+    display: inline;
+    background-color: #000;
+    color: #fff;
+    margin-bottom: 10px;
+    font-family: Calibri, sans-serif;
+    font-size: 30px;
+}
+
+#txtDescripcion {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    max-width: 100%;
+}
+
+#realizarButton {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 20px auto;
+    background-color: #5c5858;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+        /* Estilos personalizados */
+        form {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        #ImagenP {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #cuadroImagen {
+            width: 200px; /* Tamaño reducido del cuadro de imagen */
+            height: 200px;
+            border: 2px dashed #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+        #cuadroImagen input[type="file"] {
+            display: none;
+        }
+
+        #descripcionProducto {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #descripcionProducto textarea {
+            width: 100%;
+        }
+
+        /* Estilos para los campos de entrada */
+        div input[type="text"],
+        div select {
+            width: calc(100% - 10px);
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button[type="submit"] {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }

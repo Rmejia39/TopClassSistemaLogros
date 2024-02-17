@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página del Estudiante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #bienvenido {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        #contenido-docente {
+            margin-top: 50px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="bienvenido">BIENVENIDO A ESTUDIANTE: <?php echo $_GET['Codigo']; ?></div>
+    
+    <div id="contenido-docente">
+        <h2>Contenido del Docente</h2>
+        <p>Aquí puedes ver lo que ha colocado el docente:</p>
+        <!-- Aquí puedes mostrar la información del docente -->
+        <p>Información del docente...</p>
+    </div>
+</body>
+</html>

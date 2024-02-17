@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Class Sistema Logros</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="bienvenido">BIENVENIDO (A)</div>
+        <div id="bienvenido">INICIA SESIÓN PARA CONTINUAR</div>
+        <div id="form-container">
+            <!-- Imágenes personalizadas para cada botón -->
+            <img src="images\Docente.jpg" alt="Docente" class="imagen-docente">
+            <button class="boton" onclick="redireccionarAlogin('docente')">Docente</button>
+            <img src="images\Docente.jpg" alt="Estudiante" class="imagen-estudiante">
+            <button class="boton" onclick="redireccionarAlogin('estudiante')">Estudiante</button>
+            <img src="images\Docente.jpg" alt="Evaluador" class="imagen-evaluador">
+            <button class="boton" onclick="redireccionarAlogin('evaluador')">Evaluador</button>
+            <br>
+            <button class="boton" onclick="irAlogin()">Regístrarte aquí</button>
+        </div>
+    </div>
+
+    <script>
+        function irAlogin() {
+            window.location.href = 'register.php';
+        }
+        
+        function redireccionarAlogin(rol) {
+            window.location.href = 'login.php?rol=' + rol;
+        }
+    </script>
+</body>
+</html>
