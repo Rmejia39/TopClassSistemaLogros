@@ -10,7 +10,7 @@ app.secret_key = 'darkCode'
 # Mostrar pagina principal
 @app.route('/')
 def index():
-    return render_template('pages/login.html')
+    return render_template('pages/index.html')
 
 @app.route('/inicio')
 def inicio():
