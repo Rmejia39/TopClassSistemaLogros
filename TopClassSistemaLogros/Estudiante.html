@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página del Estudiante</title>
+    <link rel="stylesheet" href="/Chat/ChatEstudiante.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -32,5 +33,20 @@
         <!-- Aquí puedes mostrar la información del docente -->
         <p>Información del docente...</p>
     </div>
+
+     <!-- Elementos del Chat -->
+     <div id="chat-container">
+        <div id="chat-button">Chat</div>
+        <div id="chat-box">
+            <div id="chat-header">
+                <div id="chat-close">X</div>
+            </div>
+            <div id="chat-messages"></div>
+            <textarea id="chat-input" placeholder="Escribe un mensaje..."></textarea>
+            <button id="chat-send">Enviar</button>
+        </div>
+    </div>
+
+    <script src="/Chat/ChatEstudiante.js"></script>
 </body>
 </html>
