@@ -1,10 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 
-.tittle{
-	background-image:url('/static/images/R.jpg');
-	color: rgb(255, 255, 255);
-	
-}
+
 
 .containerBienvenida{
 	height: 100vh;
@@ -25,11 +21,11 @@
 .divOptions{
 	display: flex;
 	flex-direction: column;
-	gap: 20%;
+	gap: 200%;
 }
 .horizontalOptions{
 	display: flex;
-	gap: 20%;
+	gap: 200%;
 }
 .colorsito{
 	display: flex;
@@ -251,15 +247,3 @@ span{
 	font-size: 17px;
 }
 
-.flexbox .pmt{
-	font-weight: 200;
-	font-size: 40px;
-	font-family: 'Times New Roman', Times, serif;
-	background-image: url('/static/images/tuerca.png');
-}
-
-.tuerca{
-	background-image: url('/static/images/background3.jpg');
-	background-size: contain;
-
-}
